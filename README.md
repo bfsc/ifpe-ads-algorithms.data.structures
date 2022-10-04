@@ -2,4 +2,4 @@
 
 Examples of algorithms and data structures disciplines
 
-MORE INFORMATION ABOUT THE DISCIPLINE [HERE](brunocartaxo.com/teaching/ifpe/paulista/ads/algorithms-and-data-structures) (in portuguse)
+MORE INFORMATION ABOUT THE DISCIPLINE [HERE](http://brunocartaxo.com/teaching/ifpe/paulista/ads/algorithms-and-data-structures) (in portuguse)

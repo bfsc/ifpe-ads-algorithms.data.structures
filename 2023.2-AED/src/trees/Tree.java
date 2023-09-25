@@ -1,6 +1,6 @@
 package trees;
 
-public interface Tree {
+public interface Tree { 
 	
 	// Adiciona um elemento na árvore
 	public void add(int element);
@@ -9,5 +9,5 @@ public interface Tree {
 	public boolean contains(int element);
 	
 	// Remove um elemento da árvore
-	public void remove();
+	public void remove(int element);
 }

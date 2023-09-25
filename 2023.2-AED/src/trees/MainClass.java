@@ -7,15 +7,18 @@ public class MainClass {
 		bst.add(10);
 		bst.add(5);
 		bst.add(15);
+		bst.add(13);
 		bst.add(3);
 		bst.add(8);
-		bst.add(13);
 		
-		bst.preOrderTraversal();
-		System.out.println();
+		bst.remove(10);
+
+//		bst.preOrderTraversal();
+//		System.out.println();
 		bst.inOrderTraversal();
-		System.out.println();
-		bst.postOrderTraversal();
+//		System.out.println();
+//		bst.postOrderTraversal();
+		
 	}
 	
 }

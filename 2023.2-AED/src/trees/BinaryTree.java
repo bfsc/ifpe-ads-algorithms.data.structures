@@ -1,7 +1,7 @@
 package trees;
 
 public interface BinaryTree extends Tree {
-	
+	 
 	// Percurso em pré-ordem
 		public void preOrderTraversal();
 		

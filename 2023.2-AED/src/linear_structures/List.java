@@ -19,5 +19,7 @@ public interface List {
 	
 	//Obtém o tamanho da lista
 	public int getSize();
+	
+	public boolean contains(int element);
 }
 

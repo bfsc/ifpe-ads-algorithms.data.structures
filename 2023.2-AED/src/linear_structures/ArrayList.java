@@ -18,10 +18,9 @@ public class ArrayList implements List {
 	}
 
 	public void add(int element) {
-		if (this.size > this.array.length) {
+		if (this.size >= this.array.length) {
 			duplicateArray();
 		}
-		
 		this.array[this.size] = element;
 		this.size++;
 	}
@@ -51,6 +50,15 @@ public class ArrayList implements List {
 		this.size--;
 	}
 
+	public boolean contains(int element) {
+		for (int item : this.array) {
+			if (item == element) {
+				return true;
+			}
+		}
+		return false;
+	}
+	
 	public void replace(int element, int index) {
 		
 	}

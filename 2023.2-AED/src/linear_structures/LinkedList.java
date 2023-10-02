@@ -60,12 +60,19 @@ public class LinkedList implements List {
 		
 	}
 
-	@Override
 	public void replace(int element, int index) {
-		// TODO Auto-generated method stub
 		
 	}
 
+	public boolean contains(int element) {
+		for (Node node = this.head; this.head != null; node = node.getNext()) {
+			if (node.getValue() == element) {
+				return true;
+			}
+		}
+		return false;
+	}
+	
 	public int getSize() {
 		return this.size;
 	}
